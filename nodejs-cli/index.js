@@ -1,8 +1,8 @@
 const axios = require("axios");
 const { cli } = require("cli-ux");
 
-const API_KEY = "YOUR_API_KEY_HERE";
-const VERSION_ID = "YOUR_VERSION_ID_HERE";
+const API_KEY = process.env.VF_API_KEY;
+const VERSION_ID = process.env.VF_VERSION_ID;
 
 async function interact(userID, request) {
   console.log("...");
