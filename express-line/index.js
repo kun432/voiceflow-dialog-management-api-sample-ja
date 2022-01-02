@@ -4,8 +4,6 @@ const line    = require('@line/bot-sdk');
 const express = require('express');
 const Axios   = require("axios");
 
-const SessionTimeOut = 3600;
-
 // create LINE SDK config from env variables
 const config = {
   channelAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN,
