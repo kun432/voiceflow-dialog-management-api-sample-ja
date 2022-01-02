@@ -7,8 +7,18 @@ LINE連携サンプル
 - Node.js
 - ngrok
 - あらかじめLINE　DevelopersコンソールでMessaging APIチャネルを作成しておくこと
-
 ## Usage
+
+以下のサンプルプロジェクトをダウンロードし、Voiceflowでインポート
+
+```
+https://raw.githubusercontent.com/kun432/voiceflow-samples/main/dialog-managment-api/dialog-management-api-sample-line.vf
+```
+
+インポート後、
+
+- テストを実行して、トレーニングさせる
+- APIキー、バージョンIDを取得する
 
 ```
 $ npm install
