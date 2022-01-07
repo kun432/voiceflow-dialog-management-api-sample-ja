@@ -41,7 +41,7 @@ $ npm start
 $ ngrok http 3000
 ```
 
-ngrokのURLをslackのに設定(ex: http://xxx.ngrok.io/callback)
+ngrokのURLをslackのEvent SubscriptionのURLに設定(ex: http://xxx.ngrok.io/slack/events)
 
 slackでボットをチャネルに参加させて話しかけてみてください
 

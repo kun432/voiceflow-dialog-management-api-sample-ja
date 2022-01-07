@@ -78,9 +78,11 @@ app.message(ANY_WORD_REGEX, async ({ message, say }) => {
   await response(res.data, message.user, say);
 });
 
+const port = process.env.PORT || 3000;
+
 (async () => {
   // アプリを起動します
-  await app.start(process.env.PORT || 3000);
+  await app.start(port);
 
-  console.log('⚡️ Bolt app is running!');
+  console.log(`⚡️ Bolt app is running on ${port}!`);
 })();
